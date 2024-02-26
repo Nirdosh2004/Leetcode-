@@ -6,7 +6,7 @@ static const int _ = [](){
 }();
 class Solution {
 public:
-    int minOperations(vector<int>& nums) {
+    int minOperations(vector<int>& nums) { 
         unordered_map<int, int> counts;
         int second;
         int result = 0;
