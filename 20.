@@ -9,7 +9,7 @@ public:
             }
             else{
                 if(!ans.empty()){
-                    char top = ans.top();
+                    char top = ans.top(); 
                     if(ch == ')' && top == '(' ||
                         ch == '}' && top == '{' ||
                         ch == ']' && top == '['){
