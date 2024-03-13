@@ -4,11 +4,11 @@ public:
         int numJobs = profit.size(); // Number of jobs
         vector<tuple<int, int, int>> jobs(numJobs);
       
-        for (int i = 0; i < numJobs; ++i) {
+        for (int i = 0; i < numJobs; ++i) {     
             jobs[i] = {endTime[i], startTime[i], profit[i]};
         }
           
-        sort(jobs.begin(), jobs.end());
+        sort(jobs.begin(), jobs.end());   
         vector<int> dp(numJobs + 1);
       
         for (int i = 0; i < numJobs; ++i) {
