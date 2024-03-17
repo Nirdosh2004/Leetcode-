@@ -6,7 +6,7 @@ public:
         vector<int>merged ;
         for(int i=0;i<m;i++){
             merged.push_back(nums1[i]);
-        }
+        } 
         for(int i =0;i<n;i++){
             merged.push_back(nums2[i]);
         }
