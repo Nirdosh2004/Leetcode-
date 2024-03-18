@@ -4,7 +4,7 @@ public:
         if(x<0){
             return false;
         }
-       int copy = x ;
+       int copy = x ;    
        int ans = 0;
        
        while(x != 0) {
