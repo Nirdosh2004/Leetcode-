@@ -8,7 +8,7 @@ public:
             if(charSet[s[end]] >= start){
                 start = charSet[s[end]] + 1;
             } 
-            charSet[s[end]] = end;
+            charSet[s[end]] = end;   
             maxLength = max(maxLength , end - start + 1);
         }
         return maxLength;
