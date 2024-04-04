@@ -7,7 +7,7 @@ bool checkArmstrong(int n){
 		
 		ans = ans + (remainder*remainder*remainder);
 		n /= 10;
-	}
+	}      
 	if(ans != duplicate){
 		return false;
 	}
