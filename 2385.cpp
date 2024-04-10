@@ -4,7 +4,7 @@
  *     int val;
  *     TreeNode *
  *     TreeNode *right;
- *     TreeNode() : val(   right(nullptr) {}
+ *     TreeNode() : val(   right(nptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };   
