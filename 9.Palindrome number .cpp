@@ -5,7 +5,7 @@ public:
             return false;
         }
        int copy = x ;    
-       int ans = 0;
+       int ans = 0;    
        
        while(x != 0) {
            int reminder = x % 10;
