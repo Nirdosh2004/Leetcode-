@@ -7,7 +7,7 @@ public:
         sort(s.begin(), s.end());
 
         int maxNum = 0;
-        int cookieIndex = cookiesNums - 1;
+        int cookieIndex = cookiesNums - 1;    
         int childIndex = g.size() - 1;
         while(cookieIndex >= 0 && childIndex >=0){
             if(s[cookieIndex] >= g[childIndex]){
