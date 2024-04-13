@@ -12,7 +12,7 @@ public:
             if(temp -> val == temp-> next -> val){
                 ListNode* del = temp -> next;
                 temp -> next = del -> next ;
-                delete del;
+                delete del;  
             }
             else{
                 temp = temp -> next;
