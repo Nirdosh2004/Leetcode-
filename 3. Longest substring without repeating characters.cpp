@@ -7,7 +7,7 @@ public:
         for(end = 0;end<length;end++){
             if(charSet[s[end]] >= start){
                 start = charSet[s[end]] + 1;
-            } 
+            }    
             charSet[s[end]] = end;   
             maxLength = max(maxLength , end - start + 1);
         }
