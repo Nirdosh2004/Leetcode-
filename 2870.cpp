@@ -4,7 +4,7 @@ static const int _ = [](){
     cout.tie(nullptr);
     return 0;
 }();
-class Solution {
+class Solution {  
 public:    
     int minOperations(vector<int>& nums) { 
         unordered_map<int , int> counts;  
