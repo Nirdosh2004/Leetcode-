@@ -7,7 +7,7 @@ public:
       
         int start = 0;
         int end = matrix[0].size()-1;
-        while(start < matrix.size() && end >= 0){
+        while(start < matrix.size() && end >= 0){   
             if(matrix[start][end]==target){
                 return true;
             }
